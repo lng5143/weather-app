@@ -1,0 +1,67 @@
+html {
+    height: 100%;
+    width: 100%;
+    font-family: 'Lato';
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  #weather-icon {
+    width: 100px;
+    height: auto;
+  }
+  
+  #weather-status-container {
+    margin-top: 20px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+  }
+  
+  #weather-status {
+    align-self: center;
+  }
+  
+  #info-container {
+    align-self: center;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #location {
+    margin-bottom: 0px;
+    opacity: 70%;
+  }
+
+  #date {
+    font-style: italic;
+    opacity: 70%;
+  }
+
+  #search-container {
+    align-self: center;
+  }
+  
+  #search-location {
+    border-radius: 10px;
+  }
+
+  #search-input {
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    padding: 10px;
+  }
+
+  h1 {
+    font-weight:700;
+    font-size: 5rem;
+    margin-bottom: 10px;
+  }
